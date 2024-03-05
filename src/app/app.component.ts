@@ -3,8 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Calculadora02';
+  title = 'CALCULADORA SIMPLES';
+  appVersion = '2.3.4';
+  num01 = 10;
+  num02 = 20;
 }
